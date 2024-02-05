@@ -2,10 +2,11 @@ import React from "react";
 
 //include components
 import Navbar from "./navbar";
+import Jumbotron from "./jumbotron";
+import Card from "./card";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import Jumbotron from "./jumbotron";
 
 //create your first component
 const Home = () => {
@@ -14,6 +15,12 @@ const Home = () => {
       <Navbar />
       <div className="container">
         <Jumbotron />,
+        <div className="row d-flex justify-content-center">
+          <Card />,
+          <Card />,
+          <Card />,
+          <Card />,
+        </div>
       </div>
     </div>
   );

@@ -2,26 +2,23 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="row row-cols-1 row-cols-md-3 g-4">
-      <div className="col">
-        <div className="card h-100">
-          <img src="#" className="card-img-top" alt="#" />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-body-secondary">
-              Last updated 3 mins ago
-            </small>
-          </div>
+      <div className="card h-100" style={{width: "24%"}}>
+        <img src="#" className="card-img-top" alt="Imagen Rigo" />
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nostrum pariatur labore beatae assumenda quasi optio veritatis qui sunt in adipisci itaque quos, porro ullam aliquid sapiente sit nesciunt quis!
+          </p>
+        </div>
+        <div
+          className="card-footer d-flex justify-content-center"
+          style={{ backgroundColor: "#e5e0e0" }}
+        >
+          <button type="button" className="btn btn-primary">
+            Find Out More!
+          </button>
         </div>
       </div>
-    </div>
   );
 };
 
