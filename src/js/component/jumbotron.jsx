@@ -2,8 +2,8 @@ import React from "react";
 
 const Jumbotron = () => {
   return (
-    <div class="card">
-      <div class="card-body" style={{ backgroundColor: "#eaecef" }}>
+    <div class="card card-jumbotron pb-5">
+      <div class="card-body" >
         <h1 class="card-title">A Warm Welcome!</h1>
         <p class="card-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
@@ -11,7 +11,7 @@ const Jumbotron = () => {
           repudiandae totam commodi alias eligendi. Itaque et asperiores
           delectus commodi blanditiis, officia voluptatum.
         </p>
-        <a href="#" class="btn btn-primary">
+        <a href="#" class="btn btn-primary btn-lg">
           Call to action!
         </a>
       </div>

@@ -1,13 +1,16 @@
 import React from "react";
 
+//include images into your bundle
+import rigoImage from "../../img/rigo-baby.jpg";
+
 const Card = () => {
   return (
       <div className="card h-100" style={{width: "24%"}}>
-        <img src="#" className="card-img-top" alt="Imagen Rigo" />
+        <img src="#" className="card-img-top" alt="img" />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nostrum pariatur labore beatae assumenda quasi optio veritatis qui sunt in adipisci itaque quos, porro ullam aliquid sapiente sit nesciunt quis!
+          <h5 className="card-title text-center">Card title</h5>
+          <p className="card-text text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nostrum pariatur labore beatae assumenda quasi optio veritatis qui sunt in adipisci itaque quos
           </p>
         </div>
         <div
